@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const testimonials = [
   {
-    quote: "Mintellic transformed our digital presence completely. Their attention to detail and creative approach resulted in a website that truly represents our brand's values and has significantly increased our online engagement.",
+    quote: "Mintellic transformed our digital presence completely. Their attention to detail and creative approach resulted in a website that truly represents our brand&apos;s values and has significantly increased our online engagement.",
     author: 'Sarah Johnson',
     role: 'CEO, Horizon Tech',
     image: '/images/testimonials/client1.jpg',

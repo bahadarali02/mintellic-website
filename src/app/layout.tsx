@@ -42,8 +42,8 @@ export default function RootLayout({
           `}
         </style>
       </head>
-      <body className={`${inter.className}`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+      <body className={inter.className}>
+        <ThemeProvider>
           <Preloader />
           {children}
         </ThemeProvider>

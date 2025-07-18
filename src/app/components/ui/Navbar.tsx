@@ -20,7 +20,6 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [mounted, setMounted] = useState(false)
-  const pathname = usePathname()
   const { theme, setTheme } = useTheme()
 
   useEffect(() => {

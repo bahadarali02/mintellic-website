@@ -144,7 +144,6 @@ export default function HeroSection() {
   const subtitleRef = useRef<HTMLParagraphElement>(null)
   const ctaRef = useRef<HTMLDivElement>(null)
   const roleRef = useRef<HTMLSpanElement>(null)
-  const [currentRole, setCurrentRole] = useState(0)
   const [counters, setCounters] = useState({
     projects: 0,
     clients: 0,
@@ -261,7 +260,7 @@ export default function HeroSection() {
             </h1>
             
             <p ref={subtitleRef} className="text-gray-600 dark:text-gray-300 text-xl md:text-2xl mb-8 max-w-2xl">
-              We craft immersive digital experiences that tell your brand&apos;s story and drive measurable results.
+              We craft immersive digital experiences that tell your brand&apos;s story
             </p>
 
             {/* Stats */}
