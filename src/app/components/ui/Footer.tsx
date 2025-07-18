@@ -89,7 +89,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                 >
                   <FaWhatsapp className="w-5 h-5" />
-                  +1 (234) 567-890
+                  +44 7472 414285
                 </a>
               </motion.li>
               <motion.li 
@@ -100,7 +100,7 @@ export default function Footer() {
                   href="mailto:hello@mintellic.com" 
                   className="text-gray-400 hover:text-orange transition-colors"
                 >
-                  hello@mintellic.com
+                  contactmintellic@gmail.com
                 </a>
               </motion.li>
             </ul>
