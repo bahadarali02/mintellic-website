@@ -61,7 +61,7 @@ export default function TestimonialsSection() {
             viewport={{ once: true }}
             className="section-subtitle"
           >
-            Don't just take our word for it. Here's what our clients say about working with us.
+            Don't just take our word for it. Here&apos;s what our clients say about working with us.
           </motion.p>
         </div>
 
@@ -76,7 +76,7 @@ export default function TestimonialsSection() {
               className="glass p-8 md:p-12 rounded-2xl shadow-xl"
             >
               <blockquote className="text-xl md:text-2xl font-medium italic mb-8 text-light/90">
-                "{testimonials[activeIndex].quote}"
+                &quot;{testimonials[activeIndex].quote}&quot;
               </blockquote>
               <div className="flex items-center gap-6">
                 <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-orange/50">
