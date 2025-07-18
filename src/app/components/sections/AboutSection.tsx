@@ -7,18 +7,18 @@ import Image from 'next/image'
 
 const founders = [
   {
-    name: 'Alex Rivera',
-    role: 'Creative Director',
-    bio: 'With over 10 years in design and animation, Alex brings a visionary approach to every project, ensuring stunning visual experiences that resonate with audiences.',
-    skills: ['UI/UX Design', 'Branding', 'Motion Design', '3D Modeling'],
-    image: '/images/founders/founder1.jpg',
+    name: 'Bahadar Ali',
+    role: 'Founder',
+    bio: 'With over 4 years in design and Development, bahadar brings a visionary approach to every project, ensuring stunning visual experiences that resonate with audiences.',
+    skills: ['UI/UX Design', 'App developer', 'Motion Design', 'Full stack'],
+    image: '/images/founders/bahadar.jpg',
   },
   {
-    name: 'Jamie Chen',
-    role: 'Technical Lead',
-    bio: 'Jamie combines deep technical expertise with creative problem-solving to build robust, innovative digital solutions that stand the test of time.',
-    skills: ['Web Development', 'Mobile Apps', 'DevOps', 'System Architecture'],
-    image: '/images/founders/founder2.jpg',
+    name: 'Abdul Rheem',
+    role: 'Founder',
+    bio: 'Abdul Raheem combines deep technical expertise with creative problem-solving to build robust, innovative digital solutions that stand the test of time.',
+    skills: ['Web Development', 'Mobile Apps', 'Python', 'System Architecture'],
+    image: '/images/founders/raheem.jpg',
   },
 ]
 
